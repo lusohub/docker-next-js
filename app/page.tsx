@@ -19,24 +19,24 @@ export default function Home() {
 
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
         <ScrollVelocityContainer className="text-4xl md:text-7xl md:leading-[5rem] font-bold tracking-[-0.02em]">
-        <ScrollVelocityRow baseVelocity={20} direction={1}>
-          Bem Vindos
-        </ScrollVelocityRow>
-        <ScrollVelocityRow baseVelocity={20} direction={-1}>
-          Bem Vindos
-        </ScrollVelocityRow>
-      </ScrollVelocityContainer>
+          <ScrollVelocityRow baseVelocity={20} direction={1}>
+            Docker
+          </ScrollVelocityRow>
+          <ScrollVelocityRow baseVelocity={20} direction={-1}>
+            Compose
+          </ScrollVelocityRow>
+        </ScrollVelocityContainer>
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
       </div>
       <p>
-        Olá{" "}
-        <Highlighter action="underline" color="#FF9800">
-          Tudo bem?
+        Docker
+        {" "}<Highlighter action="underline" color="#FF9800">
+          Image
         </Highlighter>{" "}
-        Espero que{" "}
+        Docker
         <Highlighter action="highlight" color="#87CEFA">
-          SIM.
+          Container
         </Highlighter>{" "}
       </p>
       <ConfettiFireworks />
@@ -45,12 +45,12 @@ export default function Home() {
           <Button>Aqui Ainda Pior</Button>
         </CoolMode>
       </div>
-      <div className="relative h-[200px] w-full overflow-hidden">
+      <div className="relative h-[300px] w-full overflow-hidden">
         <VideoText src="https://cdn.magicui.design/ocean-small.webm">
-          MAR...
+          Docker
         </VideoText>
 
-      <Globe />
+        <Globe />
 
       </div>
     </div>
